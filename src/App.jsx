@@ -1,5 +1,5 @@
 import {
-  CardFollowersWrapper,
+  CardFollowersContainer,
   Header,
   OverViewCardContainer,
 } from "./components";
@@ -18,7 +18,7 @@ const App = () => {
     <div className={theme ? "whiteBg" : "darkBg"}>
       <div className="wrapper-container">
         <Header onSetTheme={handleThemeChange} theme={theme} />
-        <CardFollowersWrapper theme={theme} />
+        <CardFollowersContainer theme={theme} />
         <OverViewCardContainer theme={theme} />
       </div>
     </div>

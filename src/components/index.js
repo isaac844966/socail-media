@@ -1,5 +1,5 @@
-import CardFollowersWrapper from "./CardFollowersWrapper";
+import CardFollowersContainer from "./CardFollowersContainer";
 import Header from "./Header";
 import OverViewCardContainer from "./OverViewCardContainer";
 
-export { Header, CardFollowersWrapper, OverViewCardContainer };
+export { Header, CardFollowersContainer, OverViewCardContainer };
